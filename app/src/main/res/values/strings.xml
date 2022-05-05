@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">HealthBuddy</string>
+    <string name="healthbuddy_app">HealthBuddy app</string>
+    <string name="welcome_boddy">Welcome Boddy!</string>
+    <string name="login_to_continue">Login to continue</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="full_name">Full Name</string>
+    <string name="emailaddress">EmailAddress</string>
+    <string name="navigation_drawer_open">open navigation drawer</string>
+    <string name="navigation_drawer_close">close navigation drawer</string>
+    <string name="create_new_account">Create New Account</string>
+    <string name="sign_in">Sign In</string>
+    <string name="name">Name</string>
+    <string name="confirm_password">Confirm Password</string>
+</resources>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/day_background"
+    tools:context=".Sleep">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/day"/>
+
+    <ImageView
+        android:id="@+id/mountain_top"
+        android:layout_width="393dp"
+        android:layout_height="211dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="72dp"
+        android:src="@drawable/mountain_top"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/mountain_texture"
+        android:layout_width="155dp"
+        android:layout_height="202dp"
+        android:layout_marginBottom="44dp"
+        android:src="@drawable/mountain_texture"
+        app:layout_constraintBottom_toBottomOf="@+id/mountain_top"
+        app:layout_constraintEnd_toEndOf="@+id/mountain_top"
+        app:layout_constraintHorizontal_bias="0.21"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/mountain_four"
+        android:layout_width="184dp"
+        android:layout_height="143dp"
+        android:layout_marginTop="96dp"
+        android:src="@drawable/mountain_four"
+        app:layout_constraintEnd_toEndOf="@+id/mountain_top"
+        app:layout_constraintHorizontal_bias="0.092"
+        app:layout_constraintStart_toStartOf="@+id/mountain_top"
+        app:layout_constraintTop_toTopOf="@+id/mountain_top" />
+
+    <ImageView
+        android:id="@+id/mountain_three"
+        android:layout_width="297dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/mountain_three"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/mountain_top"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/mountain_five"
+        android:layout_width="161dp"
+        android:layout_height="56dp"
+        android:layout_marginEnd="72dp"
+        android:layout_marginBottom="124dp"
+        android:src="@drawable/mountain_five"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/mountain_three" />
+
+    <ImageView
+        android:id="@+id/mountain_two"
+        android:layout_width="227dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="64dp"
+        android:src="@drawable/mountain_two"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/mountain_five" />
+
+    <ImageView
+        android:id="@+id/mountain"
+        android:layout_width="339dp"
+        android:layout_height="208dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="4dp"
+        android:src="@drawable/mountain"
+        app:layout_constraintStart_toStartOf="@+id/mountain_four"
+        app:layout_constraintTop_toTopOf="@+id/mountain_five" />
+
+    <ImageView
+        android:id="@+id/shrub_behind_trees"
+        android:layout_width="374dp"
+        android:layout_height="201dp"
+        android:layout_marginTop="124dp"
+        android:layout_marginEnd="48dp"
+        android:src="@drawable/shrub_behind_trees"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/mountain_top" />
+
+    <ImageView
+        android:id="@+id/cliff_day"
+        android:layout_width="494dp"
+        android:layout_height="300dp"
+        android:layout_marginStart="76dp"
+        android:src="@drawable/cliffday"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/mountain_top" />
+
+    <ImageView
+        android:id="@+id/home"
+        android:layout_width="96dp"
+        android:layout_height="129dp"
+        android:layout_marginBottom="32dp"
+        android:src="@drawable/home"
+        app:layout_constraintBottom_toTopOf="@+id/mountain_five"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toEndOf="@+id/mountain_texture" />
+    <ImageView
+        android:id="@+id/light"
+        android:layout_width="16dp"
+        android:layout_height="14dp"
+        android:src="@drawable/light"
+        app:layout_constraintBottom_toBottomOf="@+id/home"
+        app:layout_constraintEnd_toEndOf="@+id/home"
+        app:layout_constraintHorizontal_bias="0.387"
+        app:layout_constraintStart_toStartOf="@+id/home"
+        app:layout_constraintTop_toTopOf="@+id/home"
+        app:layout_constraintVertical_bias="0.286" />
+
+    <ImageView
+        android:id="@+id/tree_cliff"
+        android:layout_width="59dp"
+        android:layout_height="103dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="28dp"
+        android:src="@drawable/tree_cliff"
+        app:layout_constraintBottom_toTopOf="@+id/mountain_three"
+        app:layout_constraintStart_toEndOf="@+id/home" />
+
+    <ImageView
+        android:id="@+id/trees"
+        android:layout_width="409dp"
+        android:layout_height="192dp"
+        android:layout_marginTop="144dp"
+        android:src="@drawable/trees"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/mountain_top" />
+
+    <ImageView
+        android:id="@+id/sun"
+        android:layout_width="104dp"
+        android:layout_height="97dp"
+        android:layout_marginBottom="36dp"
+        android:src="@drawable/sun"
+        app:layout_constraintBottom_toTopOf="@+id/mountain_texture"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.193"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/clouds"
+        android:layout_width="392dp"
+        android:layout_height="261dp"
+        android:src="@drawable/clouds"
+        app:layout_constraintBottom_toTopOf="@+id/sun"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
