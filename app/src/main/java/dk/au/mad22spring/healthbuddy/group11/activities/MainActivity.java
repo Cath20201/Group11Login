@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void setListeners() {
-        mainBinding.dachWeather.setOnClickListener(view ->
+        mainBinding.dachWeather.setOnClickListener(v ->
                 startActivity(new Intent(getApplicationContext(), WeatherActivity.class)));
     }
 }

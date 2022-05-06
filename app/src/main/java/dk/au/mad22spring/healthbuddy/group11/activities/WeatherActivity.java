@@ -17,15 +17,16 @@ public class WeatherActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        preferenceManager = new PreferenceManager(getApplicationContext());
+
 
         weatherBinding = ActivityWeatherBinding.inflate(getLayoutInflater());
         setContentView(weatherBinding.getRoot());
+        preferenceManager = new PreferenceManager(getApplicationContext());
         setListeners();
     }
 
     private void setListeners() {
-        weatherBinding.Back.setOnClickListener(view -> onBackPressed());
+        weatherBinding.Back.setOnClickListener(v -> onBackPressed());
 
     }
 }
