@@ -27,5 +27,7 @@
     <color name="exercise_end">#526aee</color>
     <color name="sta_stat">#3ec2fa</color>
     <color name="sta_end">#526aee</color>
+    <color name="signout_stat">#4D9E50</color>
+    <color name="signout_end">#336135</color>
 
 </resources>
