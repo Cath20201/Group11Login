@@ -17,17 +17,15 @@
     <color name="colorPrimaryDark">#0d0e0e</color>
     <color name="colorAccent">#3bb66d</color>
     <color name="top_bg">#eeebeb</color>
-    <color name="math_stat">#f56bd2</color>
-    <color name="math_end">#a20bbd</color>
-    <color name="phy_stat">#f0a12c</color>
-    <color name="phy_end">#f06406</color>
-    <color name="che_stat">#e98f0b</color>
-    <color name="che_end">#f8ca40</color>
-    <color name="bio_stat">#ebf39b73</color>
-    <color name="bio_end">#f38524</color>
-    <color name="geog_stat">#c11cdd</color>
-    <color name="geog_end">#526aee</color>
-    <color name="comp_stat">#3ec2fa</color>
-    <color name="comp_end">#526aee</color>
+    <color name="set_stat">#BB55A1</color>
+    <color name="set_end">#5B036A</color>
+    <color name="weather_stat">#f0a12c</color>
+    <color name="weather_end">#f06406</color>
+    <color name="sleep_stat">#e98f0b</color>
+    <color name="sleep_end">#f8ca40</color>
+    <color name="exercise_stat">#ebf39b73</color>
+    <color name="exercise_end">#526aee</color>
+    <color name="sta_stat">#3ec2fa</color>
+    <color name="sta_end">#526aee</color>
 
 </resources>
