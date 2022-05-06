@@ -25,5 +25,6 @@ public class WeatherActivity extends AppCompatActivity {
     }
 
     private void setListeners() {
+
     }
 }
