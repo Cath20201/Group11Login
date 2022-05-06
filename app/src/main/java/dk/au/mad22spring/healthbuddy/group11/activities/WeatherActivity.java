@@ -25,6 +25,7 @@ public class WeatherActivity extends AppCompatActivity {
     }
 
     private void setListeners() {
+        weatherBinding.Back.setOnClickListener(view -> onBackPressed());
 
     }
 }
