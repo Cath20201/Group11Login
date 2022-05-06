@@ -12,12 +12,13 @@ import dk.au.mad22spring.healthbuddy.group11.utilities.PreferenceManager;
 public class WeatherActivity extends AppCompatActivity {
     
     private ActivityWeatherBinding weatherBinding;
-    private @NonNull ActivityWeatherBinding preferenceManager;
+    private PreferenceManager preferenceManager;
 
     @Override
-    protected void onCreate(@Nullable Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        preferenceManager = ActivityWeatherBinding.inflate(getLayoutInflater());
+        preferenceManager = new PreferenceManager(getApplicationContext());
+
         weatherBinding = ActivityWeatherBinding.inflate(getLayoutInflater());
         setContentView(weatherBinding.getRoot());
         setListeners();
