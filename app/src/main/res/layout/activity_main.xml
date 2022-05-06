@@ -47,6 +47,7 @@
             android:orientation="vertical">
 
             <LinearLayout
+                android:id="@+id/dachWeather"
                 android:layout_width="350dp"
                 android:layout_height="100dp"
                 android:layout_gravity="center"

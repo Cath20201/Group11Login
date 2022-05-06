@@ -10,17 +10,27 @@ import android.os.Bundle;
 
 
 import dk.au.mad22spring.healthbuddy.group11.R;
+import dk.au.mad22spring.healthbuddy.group11.databinding.ActivityMainBinding;
+import dk.au.mad22spring.healthbuddy.group11.utilities.PreferenceManager;
 
 public class MainActivity extends AppCompatActivity {
 
+    private ActivityMainBinding mainBinding;
+    private PreferenceManager preferenceManager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        preferenceManager = new PreferenceManager(getApplicationContext());
+        mainBinding = ActivityMainBinding.inflate(getLayoutInflater());
+        setContentView(mainBinding.getRoot());
+        setListeners();
 
 
 
+    }
+
+    private void setListeners() {
     }
 
 
