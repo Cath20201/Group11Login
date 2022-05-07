@@ -16,8 +16,7 @@ import dk.au.mad22spring.healthbuddy.group11.utilities.PreferenceManager;
 
 public class MainActivity extends AppCompatActivity {
 
-    private ActivityMainBinding mainBinding;
-    private PreferenceManager preferenceManager;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
