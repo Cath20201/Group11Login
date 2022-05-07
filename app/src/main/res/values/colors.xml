@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    //Color of the signIn, signUp page
     <color name="primary">#1c2e46</color>
     <color name="primary_dark">#142232</color>
     <color name="primary_text">#212121</color>
@@ -29,5 +30,8 @@
     <color name="sta_end">#526aee</color>
     <color name="signout_stat">#4D9E50</color>
     <color name="signout_end">#336135</color>
+    
+    //Color of the weather page
+    <color name="black_shade_1">#292d36</color>
 
 </resources>

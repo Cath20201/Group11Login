@@ -22,18 +22,11 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        preferenceManager = new PreferenceManager(getApplicationContext());
 
-        mainBinding = ActivityMainBinding.inflate(getLayoutInflater());
-        setContentView(mainBinding.getRoot());
-        setListeners();
 
 
 
     }
 
-    private void setListeners() {
-        mainBinding.dachWeather.setOnClickListener(v ->
-                startActivity(new Intent(getApplicationContext(), WeatherActivity.class)));
-    }
+
 }
